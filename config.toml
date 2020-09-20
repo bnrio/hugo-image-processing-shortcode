@@ -1,0 +1,8 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "ananke"
+
+[[module.mounts]]
+    source = "static/images"
+    target = "assets/images"
